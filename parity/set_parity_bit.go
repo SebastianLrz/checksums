@@ -11,8 +11,7 @@ func SetParityBit(b byte) byte {
 	// Hinweis:
 	// Verwenden Sie die Funktion `CheckParityBit`, um zu prüfen,
 	// ob die Anzahl der Einsen gerade ist.
-	if !CheckParityBit(b) { // Ungerade Anzahl an Einsen
-		b += 128 // 128 = 2^7 = "10000000" in Binär.
-	}
-	return b
+
+	// TODO
+	return 0
 }
